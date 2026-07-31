@@ -1,0 +1,6 @@
+/**
+ * sc
+ */
+public class sc {
+
+}

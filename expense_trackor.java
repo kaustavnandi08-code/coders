@@ -1,14 +1,21 @@
 import java.util.*;
 public class expense_trackor {
-    public static void main(String[] args) {
      Scanner sc=new Scanner(System.in);
-    System.out.println("Enter your salary:");
-int salary=sc.nextInt();
-int expense=sc.nextInt();
- if(salary>10000 && salary<20000) {
-        int savings=salary-expense;
-        int loan_expense=25000;
-        System.out.println("You can save 20% of your salary");
+    public static void main(String[] args) {
+    create_account(new Scanner(System.in));
     }
-    
+      static void create_account(Scanner sc){
+System.out.println("welcome to expense tracker");
+String choice;
+System.out.println("Do you already have an account? (yes/no)");
+choice = sc.nextLine();
+if (choice.equals("yes")){
+    System.out.println("Enter your username and password:");
+    String username=sc.nextLine();
+     String password=sc.nextLine();
+}
+else{
+System.out.println("select the login method: ");
+}
+}
 }
