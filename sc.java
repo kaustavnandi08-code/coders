@@ -1,6 +1,0 @@
-/**
- * sc
- */
-public class sc {
-
-}
